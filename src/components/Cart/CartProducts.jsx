@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const CartProducts = () => {
   return (
     <div className={`py-6 lg:py-12 ${styles.paddingHorizontal}`}>
-      <div className="bg-white p-4 md:p-10 lg:p-20">
+      <div className="bg-white p-4 md:p-10 lg:p-14">
         <h1 className="text-2xl font-semibold">Cart</h1>
         <div className="w-full mt-6 grid grid-cols-1 lg:grid-cols-3 gap-6">
           <div className="col-span-3 lg:col-span-2 border">

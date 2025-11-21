@@ -82,7 +82,7 @@ const ShippingInfoForm = () => {
           <textarea
             name="additional-information"
             id="additional-information"
-            className="w-full px-4 py-3 text-base font-light outline-orange-600 rounded-none border"
+            className="w-full px-4 py-3 text-base font-light outline-orange-600 rounded-none border resize-none"
             placeholder="Notes about your order, e.g. special notes for delivery."
           ></textarea>
         </div>

@@ -6,7 +6,7 @@ import PaymentForm from "./PaymentForm";
 const CheckoutGrid = () => {
   return (
     <div className={`py-6 lg:py-12 ${styles.paddingHorizontal} flex flex-col`}>
-      <div className="w-full bg-white p-4 md:p-10 lg:p-20 lg:pb-6 grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="w-full bg-white p-4 md:p-10 lg:p-16 lg:pb-6 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <ShippingInfoForm />
         <PaymentForm />
       </div>
